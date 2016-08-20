@@ -25,3 +25,7 @@ list_ad_objects.py:
 config.json:
 
     This is where you enter your org details and the RAM limit. Multiple orgs can be listed in json format
+
+Resources:
+
+Active_directory script https://github.com/tjguk/active_directory/blob/master/active_directory.py
