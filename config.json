@@ -1,0 +1,11 @@
+{
+  "same_as_org_name": {
+    "username": "username _here",
+    "password": "password_here",
+    "org": "org_name_here",
+    "url": "https://your_vcloud_org/api/",
+    "memory_size": "memeroy_size_in_kb",
+    #report will be setnt to the following email
+    "to_email": "example.example.com,example1@example.com"
+  }
+}
