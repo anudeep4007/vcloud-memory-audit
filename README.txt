@@ -29,3 +29,8 @@ config.json:
 Resources:
 
 Active_directory script https://github.com/tjguk/active_directory/blob/master/active_directory.py
+
+Running the script
+===================
+
+session.py "-o" "<org name>"
