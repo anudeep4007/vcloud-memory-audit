@@ -1,8 +1,6 @@
-A python sceript to ausdit memory usage in vCloud Director organizations. The script would check all the deployed vApps
-in an organizations and report vApp having ram allocated above a defined limit.
+A python script to audit memory usage in vCloud Director organizations. The script would check all the deployed vApps in an organizations and report vApps having RAM allocated above a defined limit.
 
-The script assumes that you use AD for vCloud authetication. The AD details are required to fetch user details
-while reporting.
+The script assumes that you use AD for vCloud authetication. The AD details are required to fetch vCloud owner details while reporting.
 
 Configuration Instructions
 ===========================
@@ -26,4 +24,4 @@ list_ad_objects.py:
 
 config.json:
 
-    This is where you enter your org details. Multiple orgs can be listed in json format
+    This is where you enter your org details and the RAM limit. Multiple orgs can be listed in json format
